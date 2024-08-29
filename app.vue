@@ -3,6 +3,7 @@
     <Intro />
     <Projects />
     <Notes />
+    <CV />
   </main>
   <Footer />
 </template>
