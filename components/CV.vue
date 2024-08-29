@@ -1,5 +1,15 @@
+<script setup>
+const showCV = ref(false);
+
+// Render component only if ?showCV is present in the url-search-params
+onMounted(() => {
+  const urlParams = new URLSearchParams(window.location.search);
+  showCV.value = urlParams.has("showCV");
+});
+</script>
+
 <template>
-  <section x-show="$store.showCV">
+  <section v-if="showCV">
     <h2 class="font-medium text-2xl md:text-4xl">Work Places</h2>
     <p class="text-xl md:text-2xl mt-4 !leading-relaxed text-pretty">
       These are the stations where my career took me so far, call it a CV<br />
