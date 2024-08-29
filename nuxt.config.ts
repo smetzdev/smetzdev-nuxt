@@ -18,16 +18,11 @@ export default defineNuxtConfig({
   },
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
+  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss"],
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  tailwindcss: {
+    cssPath: ["~/assets/css/main.css", { injectPosition: "first" }],
   },
-
-  modules: ["@nuxt/content", "@nuxt/image"],
 
   routeRules: {
     "/": {
