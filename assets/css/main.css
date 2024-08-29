@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brawn-black;
+    @apply text-brawn-white;
+  }
+  a {
+    @apply text-brawn-yellow;
+    @apply transition-colors;
+    &:hover {
+      @apply text-brawn-red;
+    }
+  }
+}
