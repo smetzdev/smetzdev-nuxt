@@ -8,11 +8,11 @@ const currentYear = new Date().getFullYear();
     <div class="max-w-4xl mx-auto p-8">
       &copy; {{ currentYear }} Sascha Metz | Made with
       <a
-        href="https://astro.build"
+        href="https://nuxt.com/"
         class="text-brawn-red hover:underline"
         target="_blank"
       >
-        Astro
+        Nuxt
       </a>
     </div>
   </footer>
