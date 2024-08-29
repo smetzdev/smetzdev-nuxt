@@ -37,10 +37,10 @@
           Send me a message </a
         >.
       </p>
-      <!-- <div class="flex items-center space-x-4 mt-12">
+      <div class="flex items-center space-x-4 mt-12">
         <ButtonLink href="https://cal.com/smetzdev">Book a call</ButtonLink>
         <Social />
-      </div> -->
+      </div>
     </div>
   </section>
 </template>
