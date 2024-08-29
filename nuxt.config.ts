@@ -27,7 +27,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@nuxt/image"],
 
   routeRules: {
     "/": {
