@@ -1,8 +1,11 @@
 <template>
   <section class="min-h-screen flex flex-col justify-center">
     <header class="flex items-center space-x-4 max-w-xl">
-      <img
+      <NuxtImg
         src="/smetzdev-casual.jpg"
+        width="96"
+        height="96"
+        placeholder
         class="rounded-xl h-24 w-24 md:h-36 md:w-36 shadow-xl shadow-brawn-yellow/15"
         alt="Sascha Metz in casual look"
       />
