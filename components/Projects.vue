@@ -11,7 +11,10 @@ const projects = await queryContent("projects").find();
         <CardContent>{{ project.description }}</CardContent>
 
         <template v-slot:links>
-          <CardSecondaryLink :href="project.designerLink">
+          <CardSecondaryLink
+            :href="project.designerLink"
+            v-if="project.designerLink"
+          >
             <template v-slot:label>
               <span>Design: </span>
             </template>
