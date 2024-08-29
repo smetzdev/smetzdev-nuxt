@@ -1,0 +1,5 @@
+<template>
+  <p class="leading-relaxed mt-6 text-xl text-pretty text-gray-300">
+    <slot></slot>
+  </p>
+</template>
