@@ -3,7 +3,7 @@ const currentYear = new Date().getFullYear();
 </script>
 
 <template>
-  <BottomSvg />
+  <BottomSvg class="-mb-px" />
   <footer class="bg-brawn-yellow text-brawn-black">
     <div class="max-w-4xl mx-auto p-8">
       &copy; {{ currentYear }} Sascha Metz | Made with
